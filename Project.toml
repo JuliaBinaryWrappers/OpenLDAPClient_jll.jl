@@ -1,6 +1,6 @@
 name = "OpenLDAPClient_jll"
 uuid = "234f2d50-f964-585e-b1c8-17cd4567e563"
-version = "2.4.50+1"
+version = "2.4.50+2"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

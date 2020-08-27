@@ -299,7 +299,7 @@ liblber_path = ""
 liblber_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const liblber = "/workspace/destdir/lib/liblber-2.4.2.dylib"
+const liblber = "@rpath/liblber-2.4.2.dylib"
 
 
 # Relative path to `libldap`
@@ -313,7 +313,7 @@ libldap_path = ""
 libldap_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libldap = "/workspace/destdir/lib/libldap-2.4.2.dylib"
+const libldap = "@rpath/libldap-2.4.2.dylib"
 
 
 # Relative path to `libldap_r`
@@ -327,17 +327,22 @@ libldap_r_path = ""
 libldap_r_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libldap_r = "/workspace/destdir/lib/libldap_r-2.4.2.dylib"
+const libldap_r = "@rpath/libldap_r-2.4.2.dylib"
 
+
+# Inform that the wrapper is available for this platform
+wrapper_available = true
 
 """
 Open all libraries
 """
 function __init__()
-    global artifact_dir = abspath(artifact"OpenLDAPClient")
+    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
+    global artifact_dir = find_artifact_dir()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
+    # Initialize PATH and LIBPATH environment variable listings
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
     foreach(p -> append!(PATH_list, p), (OpenSSL_jll.PATH_list, PCRE_jll.PATH_list,))
@@ -374,21 +379,21 @@ function __init__()
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global liblber_handle = dlopen(liblber_path)
+    global liblber_handle = dlopen(liblber_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(liblber_path))
 
     global libldap_path = normpath(joinpath(artifact_dir, libldap_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libldap_handle = dlopen(libldap_path)
+    global libldap_handle = dlopen(libldap_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libldap_path))
 
     global libldap_r_path = normpath(joinpath(artifact_dir, libldap_r_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libldap_r_handle = dlopen(libldap_r_path)
+    global libldap_r_handle = dlopen(libldap_r_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libldap_r_path))
 
     # Filter out duplicate and empty entries in our PATH and LIBPATH entries
@@ -399,4 +404,3 @@ function __init__()
 
     
 end  # __init__()
-
