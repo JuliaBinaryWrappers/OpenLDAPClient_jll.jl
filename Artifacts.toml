@@ -1,113 +1,143 @@
 [[OpenLDAPClient]]
 arch = "aarch64"
-git-tree-sha1 = "29702d4fd1b4a2cceff909335725b4e8e2690232"
-libc = "glibc"
-os = "linux"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "d47d9ed5fbe087c75e593855ee2e56810e51ff651c127c11230eb5811c02b538"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.aarch64-linux-gnu.tar.gz"
-[[OpenLDAPClient]]
-arch = "aarch64"
-git-tree-sha1 = "8990faa45d0e19356f87b3a479f4c86943297563"
-libc = "musl"
-os = "linux"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "7ad3bb4dcfbb3e268d9b40678725e052082677872a8c61484670d83c8c44bc2e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.aarch64-linux-musl.tar.gz"
-[[OpenLDAPClient]]
-arch = "armv7l"
-git-tree-sha1 = "8a74891e5e1288a3e21787b4134a78ffc6783c52"
-libc = "glibc"
-os = "linux"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "dd36552af58b80f3e7ed09284084d9a5070311e5e85fb5e8a06a26a6c0cfe0ca"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.armv7l-linux-gnueabihf.tar.gz"
-[[OpenLDAPClient]]
-arch = "armv7l"
-git-tree-sha1 = "7e85d21520314086a9f5ce6796cdf0442b8f4fdb"
-libc = "musl"
-os = "linux"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "678d566db34daaec22ba63f264dcf077bf202551f614a6a4b010e859a0052212"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.armv7l-linux-musleabihf.tar.gz"
-[[OpenLDAPClient]]
-arch = "i686"
-git-tree-sha1 = "6fc8e471dfe941a3c43a2ce36aca3f49343cfdae"
-libc = "glibc"
-os = "linux"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "baa035d9b0ffcda3e72e193f73f6e0336aba107fa42f8c15928e86f2a0a11827"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.i686-linux-gnu.tar.gz"
-[[OpenLDAPClient]]
-arch = "i686"
-git-tree-sha1 = "3f8c0ae81f8f5459169f9ea11e3979bab9c9d287"
-libc = "musl"
-os = "linux"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "06031ccee0c4aa3e00b60f62c9f9dd3ba6caeaa14669156b052b00e3b48c02ce"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.i686-linux-musl.tar.gz"
-[[OpenLDAPClient]]
-arch = "i686"
-git-tree-sha1 = "4c39dbd08c0b59746d90db576f2bdeb031cc0595"
-os = "windows"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "71f3e6f34c6de299061fc059ffd8bc4c7ed1317ad38fc67de056eefe473780fa"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.i686-w64-mingw32.tar.gz"
-[[OpenLDAPClient]]
-arch = "powerpc64le"
-git-tree-sha1 = "37abada85fd9940e5d9ed33b6da2e580ce4827a0"
-libc = "glibc"
-os = "linux"
-
-    [[OpenLDAPClient.download]]
-    sha256 = "3950b399fddb55932d600ed133d3ea783a3a29252a927b85704d59c3f4edbe72"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.powerpc64le-linux-gnu.tar.gz"
-[[OpenLDAPClient]]
-arch = "x86_64"
-git-tree-sha1 = "7924c092c17ce365e9463499287d83f76924e891"
+git-tree-sha1 = "929ed503706c57b051e0a1a69c1d3ef2f29045f3"
 os = "macos"
 
     [[OpenLDAPClient.download]]
-    sha256 = "f22e45cb2d20d4e9a4aa88add41ab51253e989a04156940ff35ba36e599070ea"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.x86_64-apple-darwin14.tar.gz"
+    sha256 = "2b922b51b96e921d236d4a3e5fd249c1a1b432c3c3c9903c23ee72522f366709"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.aarch64-apple-darwin.tar.gz"
 [[OpenLDAPClient]]
-arch = "x86_64"
-git-tree-sha1 = "3db80064a3727ca3d4347395d90e206b780c3952"
+arch = "aarch64"
+git-tree-sha1 = "7d89368c3569fcc2762616f402652bcde6b4d9e3"
 libc = "glibc"
 os = "linux"
 
     [[OpenLDAPClient.download]]
-    sha256 = "6444f4618a00c12303b3f35fe0ecfaf823336e52d25a153ef04506f9f5f1c597"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.x86_64-linux-gnu.tar.gz"
+    sha256 = "d23d59428c2af92535a8fe70b2890615085f772d6ed39a3963066c29586c73a5"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.aarch64-linux-gnu.tar.gz"
 [[OpenLDAPClient]]
-arch = "x86_64"
-git-tree-sha1 = "dce7899521ef6b69e35ef872758464019b6c8a39"
+arch = "aarch64"
+git-tree-sha1 = "74dafd50b27543e885a775aefae3823f4465309c"
 libc = "musl"
 os = "linux"
 
     [[OpenLDAPClient.download]]
-    sha256 = "7f6d7510ec42b6d4855f1c06cad3b6910eb5f11a327d68ad58ca39413e60a6ef"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.x86_64-linux-musl.tar.gz"
+    sha256 = "5c9cf5cb753953fa13ba279d5469c2e31875ce0f3b6ee5fa6db1aad4b2c906e9"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.aarch64-linux-musl.tar.gz"
 [[OpenLDAPClient]]
-arch = "x86_64"
-git-tree-sha1 = "a86d7854616358d774ce80f7479c5d32c68eb88a"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "744110c82a0213709c79d684f1216d03c6d0d147"
+libc = "glibc"
+os = "linux"
 
     [[OpenLDAPClient.download]]
-    sha256 = "238b7540e1e7d2c94445493563715ea313eeb691a2fecf3077430416d91dee80"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "223f1309ea829d3bec4e74eeb5a3177318ff15848a21bbbc24f07d98c261b800"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.armv6l-linux-gnueabihf.tar.gz"
 [[OpenLDAPClient]]
-arch = "x86_64"
-git-tree-sha1 = "5189754c7ba732d6e3545b119c3dec8caeed950f"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4b842c2e98f503a5cdfbac68d20b185f1e696b58"
+libc = "musl"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "347c260ba9c77d46f75f8eabdce19a5e89ccebce8b1439ebac8084784b4354d1"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.armv6l-linux-musleabihf.tar.gz"
+[[OpenLDAPClient]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "732ca32bb64640331ab119b94ef6ace273d07eb7"
+libc = "glibc"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "c8b054b50aef7bc1d9339c02b451254203a67d990472b00224d6f29701d1d471"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.armv7l-linux-gnueabihf.tar.gz"
+[[OpenLDAPClient]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "300fad9f8bdffbfc191a42ed6f940d604ec6ea81"
+libc = "musl"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "f02fe30a31dfde99a07d894191cd2e2e671228505c03efd98b6824c01a2b2c3f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.armv7l-linux-musleabihf.tar.gz"
+[[OpenLDAPClient]]
+arch = "i686"
+git-tree-sha1 = "6bfe697302f9f7082c1bb074bb944fb57b43d8af"
+libc = "glibc"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "9a14db6bc8d23228ee7aa4c40225b6a56d5aa811678dca96f709018eaf026781"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.i686-linux-gnu.tar.gz"
+[[OpenLDAPClient]]
+arch = "i686"
+git-tree-sha1 = "8d941eb3c469208b03459882a58702902a368699"
+libc = "musl"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "98fa348d55a77c7424164a72a86dbfc956fe1cc016fb3d027bbbb6448d2b2cdf"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.i686-linux-musl.tar.gz"
+[[OpenLDAPClient]]
+arch = "i686"
+git-tree-sha1 = "c5fc89958937deb4caa1e6a2cfa55cdc44e49a2b"
 os = "windows"
 
     [[OpenLDAPClient.download]]
-    sha256 = "fea2c173f9db9dc3939ec077a139c80e0432c99bc59e33c37d49b39d3a1466e8"
-    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.4.50+2/OpenLDAPClient.v2.4.50.x86_64-w64-mingw32.tar.gz"
+    sha256 = "b63d7ddf706a37e21a62107d586f2a66213cefefbcc67a3fa2677044d1702164"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.i686-w64-mingw32.tar.gz"
+[[OpenLDAPClient]]
+arch = "powerpc64le"
+git-tree-sha1 = "aa55ab9802aac56ccc178fb08ff73fcbc23dafa4"
+libc = "glibc"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "cfeaab49d41aff8a8c1c3be2062ada1c451005fb3941056171ea34ae1ee03760"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.powerpc64le-linux-gnu.tar.gz"
+[[OpenLDAPClient]]
+arch = "x86_64"
+git-tree-sha1 = "f979f8a52d6706119eec1c9c9a3fbe7a764dd944"
+os = "macos"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "f184a7de70f792f21486868ceef8518543170e3cf390648e35d21a0628e36a1c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.x86_64-apple-darwin.tar.gz"
+[[OpenLDAPClient]]
+arch = "x86_64"
+git-tree-sha1 = "a8f4a395dc830882a522137d501afb07a1baa229"
+libc = "glibc"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "188af39767ab232a3794f19cf8a52fa1323da0c5197a3447b0ffbee139d8456f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.x86_64-linux-gnu.tar.gz"
+[[OpenLDAPClient]]
+arch = "x86_64"
+git-tree-sha1 = "fe06ae319b890e292e8f224042e9119a40279739"
+libc = "musl"
+os = "linux"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "8639a0a90e41cba8e5b66603051962e380352d7695cf1f8f5652743e7bc729ee"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.x86_64-linux-musl.tar.gz"
+[[OpenLDAPClient]]
+arch = "x86_64"
+git-tree-sha1 = "0ef11ccbab3263a175c3c7d0ce994913da9de70c"
+os = "freebsd"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "5ee659bdf6046737f8222e43e7b04ac60d5300a86fc45ba6255a841336591056"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.x86_64-unknown-freebsd.tar.gz"
+[[OpenLDAPClient]]
+arch = "x86_64"
+git-tree-sha1 = "7d56ec4550ab210ed403ec88944a021013425267"
+os = "windows"
+
+    [[OpenLDAPClient.download]]
+    sha256 = "5dcfa5040ef3ebc89b93872718486a6a9f381654b1c129f38ec31b5fbdad91fd"
+    url = "https://github.com/JuliaBinaryWrappers/OpenLDAPClient_jll.jl/releases/download/OpenLDAPClient-v2.5.14+0/OpenLDAPClient.v2.5.14.x86_64-w64-mingw32.tar.gz"
